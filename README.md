@@ -30,7 +30,9 @@ jobs:
           source_dir: 'upload'
           output_dir: 'upload'
 ```
-- Add `clientId` and `clientSecret` variables. Both can both be found in your [Sirv account settings](https://my.sirv.com/#/account/settings/api) (create API client).
+- Create a Sirv API client. You can do this in your [Sirv account settings](https://my.sirv.com/#/account/settings/api).
+- Add `clientId` and `clientSecret` ENV variables in your repo settings.
+
 ## Action inputs
 
 The following settings must be passed as environment variables as shown in the example above.
